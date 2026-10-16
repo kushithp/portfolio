@@ -1,8 +1,39 @@
 /* Edit these to restyle the whole site. */
-:root{
- --color-background:#F5F5F2;--color-frame:#790F09;--color-panel:#B1C8AE;--color-panel-light:#C5D5C0;--color-panel-muted:#9FB49D;
- --color-text:#78140D;--color-text-secondary:#75564F;--color-on-frame:#F5F5F2;--color-grid:rgba(83,66,52,.35);--color-focus:#191816;
- --font-display:'Space Grotesk',system-ui,sans-serif;--font-body:'Manrope',system-ui,sans-serif;
- --space-1:8px;--space-2:16px;--space-3:28px;--space-4:44px;
- --radius-frame:28px;--radius-inner:14px;--shadow-none:none;--duration:.3s;--duration-slow:.6s}
-:root[data-theme="dark"]{--color-background:#191816;--color-frame:#3a0a07;--color-panel:#2a3a2c;--color-panel-light:#324435;--color-panel-muted:#25332a;--color-text:#e9d9d2;--color-text-secondary:#c2a9a0;--color-on-frame:#e9d9d2;--color-grid:rgba(233,217,210,.25);--color-focus:#fff}
+
+:root {
+    --color-background: #f5f5f2;
+    --color-frame: #790f09;
+    --color-panel: #b1c8ae;
+    --color-panel-light: #c5d5c0;
+    --color-panel-muted: #9fb49d;
+    --color-text: #78140d;
+    --color-text-secondary: #75564f;
+    --color-on-frame: #f5f5f2;
+    --color-grid: rgba(83, 66, 52, 0.35);
+    --color-focus: #191816;
+    --font-display: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "Manrope", system-ui, sans-serif;
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 28px;
+    --space-4: 44px;
+    --radius-frame: 28px;
+    --radius-inner: 14px;
+    --shadow-none: none;
+    --duration: 0.3s;
+    --duration-slow: 0.6s;
+}
+
+:root[data-theme="dark"] {
+    --color-background: #191816;
+    --color-frame: #680B05;
+    --color-text: #6A0A05;
+    --color-panel: #2a3a2c;
+    --color-panel-light: #324435;
+    --color-panel-muted: #25332a;
+    /*--color-text: #e9d9d2;*/
+    --color-text-secondary: #c2a9a0;
+    --color-on-frame: #e9d9d2;
+    --color-grid: rgba(233, 217, 210, 0.25);
+    --color-focus: #fff;
+}
