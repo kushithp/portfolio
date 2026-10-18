@@ -35,4 +35,4 @@ Requires Node.js 20.6 or newer. Save the file and the browser refreshes.
 - Changing content never needs an API key.
 
 ## Not included yet
-ESLint, analytics, Open Graph share image, Framer Motion (CSS transitions are used instead), blog/testimonials/GitHub-activity sections, and the hash-based per-project URLs (case studies open as a full-screen overlay).
+ESLint, analytics, Open Graph share image, Framer Motion (CSS transitions are used instead), blog/testimonials/GitHub-activity sections, and the hash-based per-project URLs (case studies open as a full-screen overlay ).
